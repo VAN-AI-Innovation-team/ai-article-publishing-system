@@ -1,0 +1,25 @@
+name: 작업 제안
+about: 기능, 데이터원 또는 운영 개선을 제안합니다.
+title: '[기능] '
+labels: enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 해결할 문제
+      description: 누가 어떤 상황에서 겪는 문제인가요?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 완료 조건
+    validations:
+      required: true
+  - type: checkboxes
+    id: editorial
+    attributes:
+      label: 편집·출처 영향
+      options:
+        - label: 출처 권리와 수집 조건을 확인했습니다.
+        - label: 게시 전 사람 승인 흐름을 유지합니다.
