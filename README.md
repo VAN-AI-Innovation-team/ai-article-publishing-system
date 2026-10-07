@@ -14,10 +14,9 @@
 - 비밀값을 저장소에 커밋하지 않음
 
 ## 문서
-- [프로젝트 체크리스트](PROJECT_CHECKLIST.md)
 - [초기 설계 및 운영 방식 조사](PLAN.md)
 - [5인 역할 분담](TEAM.md)
 - [기여 가이드](CONTRIBUTING.md)
 - [GitHub 초기 설정](GITHUB_SETUP.md)
 
-기술 스택과 배포 대상은 sheerit CMS 및 운영환경 확인 후 결정합니다.
+기능 체크리스트와 주간보고는 저장소에 게시하지 않습니다. 기술 스택과 배포 대상은 sheerit CMS 및 운영환경 확인 후 결정합니다.
