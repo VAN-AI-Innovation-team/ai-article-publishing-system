@@ -148,7 +148,7 @@ def load_source_registry(path: str | Path) -> SourceRegistry:
             "name": raw_source.get("name"),
             "url": raw_source.get("url"),
             "source_type": raw_source.get("source_type"),
-            "collection_method": raw_source.get("collection_method"),
+      
         }
         for field, value in required_strings.items():
             if not isinstance(value, str) or not value.strip():
