@@ -1,0 +1,3700 @@
+# Imported from the approved watchlists in the VAN planning document.
+# Collection method, priority, polling interval, and usage terms require confirmation.
+# Entries stay inactive until operational settings are configured.
+sources:
+  - id: "G01"
+    name: "로이터"
+    url: "https://www.reuters.com/"
+    source_type: "foreign_media"
+    region_language: "영국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G02"
+    name: "AP통신"
+    url: "https://apnews.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G03"
+    name: "AFP통신"
+    url: "https://www.afp.com/"
+    source_type: "foreign_media"
+    region_language: "프랑스 · 프랑스어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G04"
+    name: "BBC News"
+    url: "https://www.bbc.com/news"
+    source_type: "foreign_media"
+    region_language: "영국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G05"
+    name: "블룸버그"
+    url: "https://www.bloomberg.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G06"
+    name: "CNN"
+    url: "https://www.cnn.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G07"
+    name: "뉴욕타임스"
+    url: "https://www.nytimes.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G08"
+    name: "파이낸셜타임스"
+    url: "https://www.ft.com/"
+    source_type: "foreign_media"
+    region_language: "영국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G09"
+    name: "월스트리트저널"
+    url: "https://www.wsj.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G10"
+    name: "가디언"
+    url: "https://www.theguardian.com/international"
+    source_type: "foreign_media"
+    region_language: "영국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G11"
+    name: "워싱턴포스트"
+    url: "https://www.washingtonpost.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G12"
+    name: "이코노미스트"
+    url: "https://www.economist.com/"
+    source_type: "foreign_media"
+    region_language: "영국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G13"
+    name: "알자지라"
+    url: "https://www.aljazeera.com/"
+    source_type: "foreign_media"
+    region_language: "카타르 · 영어·아랍어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G14"
+    name: "도이체벨레"
+    url: "https://www.dw.com/"
+    source_type: "foreign_media"
+    region_language: "독일 · 영어·독일어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G15"
+    name: "프랑스24"
+    url: "https://www.france24.com/"
+    source_type: "foreign_media"
+    region_language: "프랑스 · 영어·프랑스어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G16"
+    name: "CNBC"
+    url: "https://www.cnbc.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G17"
+    name: "폴리티코"
+    url: "https://www.politico.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G18"
+    name: "니혼게이자이신문·Nikkei Asia"
+    url: "https://asia.nikkei.com/"
+    source_type: "foreign_media"
+    region_language: "일본 · 일본어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G19"
+    name: "NHK·NHK WORLD-JAPAN"
+    url: "https://www3.nhk.or.jp/nhkworld/"
+    source_type: "foreign_media"
+    region_language: "일본 · 일본어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G20"
+    name: "사우스차이나모닝포스트"
+    url: "https://www.scmp.com/"
+    source_type: "foreign_media"
+    region_language: "홍콩 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G21"
+    name: "르몽드"
+    url: "https://www.lemonde.fr/"
+    source_type: "foreign_media"
+    region_language: "프랑스 · 프랑스어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G22"
+    name: "슈피겔"
+    url: "https://www.spiegel.de/"
+    source_type: "foreign_media"
+    region_language: "독일 · 독일어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G23"
+    name: "엘파이스"
+    url: "https://elpais.com/"
+    source_type: "foreign_media"
+    region_language: "스페인 · 스페인어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G24"
+    name: "NPR"
+    url: "https://www.npr.org/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G25"
+    name: "ABC News"
+    url: "https://abcnews.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G26"
+    name: "NBC News"
+    url: "https://www.nbcnews.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G27"
+    name: "CBS News"
+    url: "https://www.cbsnews.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G28"
+    name: "Fox News"
+    url: "https://www.foxnews.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G29"
+    name: "Sky News"
+    url: "https://news.sky.com/"
+    source_type: "foreign_media"
+    region_language: "영국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G30"
+    name: "인디펜던트"
+    url: "https://www.independent.co.uk/"
+    source_type: "foreign_media"
+    region_language: "영국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G31"
+    name: "데일리텔레그래프"
+    url: "https://www.telegraph.co.uk/"
+    source_type: "foreign_media"
+    region_language: "영국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G32"
+    name: "데일리메일"
+    url: "https://www.dailymail.co.uk/"
+    source_type: "foreign_media"
+    region_language: "영국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G33"
+    name: "악시오스"
+    url: "https://www.axios.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G34"
+    name: "비즈니스인사이더"
+    url: "https://www.businessinsider.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G35"
+    name: "포브스"
+    url: "https://www.forbes.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G36"
+    name: "타임"
+    url: "https://time.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G37"
+    name: "USA Today"
+    url: "https://www.usatoday.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G38"
+    name: "로스앤젤레스타임스"
+    url: "https://www.latimes.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G39"
+    name: "CNA"
+    url: "https://www.channelnewsasia.com/"
+    source_type: "foreign_media"
+    region_language: "싱가포르 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G40"
+    name: "스트레이츠타임스"
+    url: "https://www.straitstimes.com/"
+    source_type: "foreign_media"
+    region_language: "싱가포르 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G41"
+    name: "ABC News Australia"
+    url: "https://www.abc.net.au/news/"
+    source_type: "foreign_media"
+    region_language: "호주 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G42"
+    name: "CBC News"
+    url: "https://www.cbc.ca/news"
+    source_type: "foreign_media"
+    region_language: "캐나다 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G43"
+    name: "타임스오브인디아"
+    url: "https://timesofindia.indiatimes.com/"
+    source_type: "foreign_media"
+    region_language: "인도 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G44"
+    name: "더힌두"
+    url: "https://www.thehindu.com/"
+    source_type: "foreign_media"
+    region_language: "인도 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G45"
+    name: "신화통신 \\[국영\\]"
+    url: "https://english.news.cn/"
+    source_type: "foreign_media"
+    region_language: "중국 · 중국어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G46"
+    name: "차이신"
+    url: "https://www.caixinglobal.com/"
+    source_type: "foreign_media"
+    region_language: "중국 · 중국어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G47"
+    name: "타스통신 \\[국영\\]"
+    url: "https://tass.com/"
+    source_type: "foreign_media"
+    region_language: "러시아 · 러시아어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G48"
+    name: "아나돌루통신 \\[국가 통신사\\]"
+    url: "https://www.aa.com.tr/en"
+    source_type: "foreign_media"
+    region_language: "튀르키예 · 튀르키예어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G49"
+    name: "아랍뉴스"
+    url: "https://www.arabnews.com/"
+    source_type: "foreign_media"
+    region_language: "사우디아라비아 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "G50"
+    name: "하레츠"
+    url: "https://www.haaretz.com/"
+    source_type: "foreign_media"
+    region_language: "이스라엘 · 히브리어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C01-1"
+    name: "AP통신"
+    url: "https://apnews.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C01-2"
+    name: "뉴욕타임스"
+    url: "https://www.nytimes.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C01-3"
+    name: "CNN"
+    url: "https://www.cnn.com/"
+    source_type: "foreign_media"
+    region_language: "미국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C02-1"
+    name: "BBC News"
+    url: "https://www.bbc.com/news"
+    source_type: "foreign_media"
+    region_language: "영국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C02-2"
+    name: "로이터"
+    url: "https://www.reuters.com/"
+    source_type: "foreign_media"
+    region_language: "영국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C02-3"
+    name: "가디언"
+    url: "https://www.theguardian.com/international"
+    source_type: "foreign_media"
+    region_language: "영국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C03-1"
+    name: "NHK·NHK WORLD-JAPAN"
+    url: "https://www3.nhk.or.jp/nhkworld/"
+    source_type: "foreign_media"
+    region_language: "일본 · 일본어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C03-2"
+    name: "니혼게이자이신문·Nikkei Asia"
+    url: "https://asia.nikkei.com/"
+    source_type: "foreign_media"
+    region_language: "일본 · 일본어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C03-3"
+    name: "아사히신문"
+    url: "https://www.asahi.com/"
+    source_type: "foreign_media"
+    region_language: "일본 · 일본어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C04-1"
+    name: "신화통신 \\[국영\\]"
+    url: "https://english.news.cn/"
+    source_type: "foreign_media"
+    region_language: "중국 · 중국어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C04-2"
+    name: "인민일보 \\[중국공산당 기관지\\]"
+    url: "https://en.people.cn/"
+    source_type: "foreign_media"
+    region_language: "중국 · 중국어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C04-3"
+    name: "차이신"
+    url: "https://www.caixinglobal.com/"
+    source_type: "foreign_media"
+    region_language: "중국 · 중국어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C05-1"
+    name: "타스통신 \\[국영\\]"
+    url: "https://tass.com/"
+    source_type: "foreign_media"
+    region_language: "러시아 · 러시아어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C05-2"
+    name: "코메르산트"
+    url: "https://www.kommersant.ru/"
+    source_type: "foreign_media"
+    region_language: "러시아 · 러시아어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C05-3"
+    name: "RBC"
+    url: "https://www.rbc.ru/"
+    source_type: "foreign_media"
+    region_language: "러시아 · 러시아어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C06-1"
+    name: "Ynet·Ynetnews"
+    url: "https://www.ynetnews.com/"
+    source_type: "foreign_media"
+    region_language: "이스라엘 · 히브리어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C06-2"
+    name: "하레츠"
+    url: "https://www.haaretz.com/"
+    source_type: "foreign_media"
+    region_language: "이스라엘 · 히브리어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C06-3"
+    name: "타임스오브이스라엘"
+    url: "https://www.timesofisrael.com/"
+    source_type: "foreign_media"
+    region_language: "이스라엘 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C07-1"
+    name: "AFP통신"
+    url: "https://www.afp.com/"
+    source_type: "foreign_media"
+    region_language: "프랑스 · 프랑스어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C07-2"
+    name: "르몽드"
+    url: "https://www.lemonde.fr/"
+    source_type: "foreign_media"
+    region_language: "프랑스 · 프랑스어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C07-3"
+    name: "르피가로"
+    url: "https://www.lefigaro.fr/"
+    source_type: "foreign_media"
+    region_language: "프랑스 · 프랑스어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C08-1"
+    name: "ARD Tagesschau"
+    url: "https://www.tagesschau.de/"
+    source_type: "foreign_media"
+    region_language: "독일 · 독일어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C08-2"
+    name: "슈피겔"
+    url: "https://www.spiegel.de/"
+    source_type: "foreign_media"
+    region_language: "독일 · 독일어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C08-3"
+    name: "도이체벨레"
+    url: "https://www.dw.com/"
+    source_type: "foreign_media"
+    region_language: "독일 · 영어·독일어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C09-1"
+    name: "ANSA통신"
+    url: "https://www.ansa.it/english/"
+    source_type: "foreign_media"
+    region_language: "이탈리아 · 이탈리아어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C09-2"
+    name: "코리에레델라세라"
+    url: "https://www.corriere.it/"
+    source_type: "foreign_media"
+    region_language: "이탈리아 · 이탈리아어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C09-3"
+    name: "라레푸블리카"
+    url: "https://www.repubblica.it/"
+    source_type: "foreign_media"
+    region_language: "이탈리아 · 이탈리아어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C10-1"
+    name: "엘파이스"
+    url: "https://elpais.com/"
+    source_type: "foreign_media"
+    region_language: "스페인 · 스페인어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C10-2"
+    name: "EFE통신"
+    url: "https://efe.com/en/"
+    source_type: "foreign_media"
+    region_language: "스페인 · 스페인어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C10-3"
+    name: "엘문도"
+    url: "https://www.elmundo.es/"
+    source_type: "foreign_media"
+    region_language: "스페인 · 스페인어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C11-1"
+    name: "CBC News"
+    url: "https://www.cbc.ca/news"
+    source_type: "foreign_media"
+    region_language: "캐나다 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C11-2"
+    name: "글로브앤드메일"
+    url: "https://www.theglobeandmail.com/"
+    source_type: "foreign_media"
+    region_language: "캐나다 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C11-3"
+    name: "CTV News"
+    url: "https://www.ctvnews.ca/"
+    source_type: "foreign_media"
+    region_language: "캐나다 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C12-1"
+    name: "ABC News Australia"
+    url: "https://www.abc.net.au/news/"
+    source_type: "foreign_media"
+    region_language: "호주 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C12-2"
+    name: "시드니모닝헤럴드"
+    url: "https://www.smh.com.au/"
+    source_type: "foreign_media"
+    region_language: "호주 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C12-3"
+    name: "오스트레일리안파이낸셜리뷰"
+    url: "https://www.afr.com/"
+    source_type: "foreign_media"
+    region_language: "호주 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C13-1"
+    name: "타임스오브인디아"
+    url: "https://timesofindia.indiatimes.com/"
+    source_type: "foreign_media"
+    region_language: "인도 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C13-2"
+    name: "더힌두"
+    url: "https://www.thehindu.com/"
+    source_type: "foreign_media"
+    region_language: "인도 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C13-3"
+    name: "인디언익스프레스"
+    url: "https://indianexpress.com/"
+    source_type: "foreign_media"
+    region_language: "인도 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C14-1"
+    name: "CNA"
+    url: "https://www.channelnewsasia.com/"
+    source_type: "foreign_media"
+    region_language: "싱가포르 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C14-2"
+    name: "스트레이츠타임스"
+    url: "https://www.straitstimes.com/"
+    source_type: "foreign_media"
+    region_language: "싱가포르 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C14-3"
+    name: "연합조보"
+    url: "https://www.zaobao.com.sg/"
+    source_type: "foreign_media"
+    region_language: "싱가포르 · 중국어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C15-1"
+    name: "사우스차이나모닝포스트"
+    url: "https://www.scmp.com/"
+    source_type: "foreign_media"
+    region_language: "홍콩(지역) · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C15-2"
+    name: "RTHK \\[공영\\]"
+    url: "https://news.rthk.hk/"
+    source_type: "foreign_media"
+    region_language: "홍콩(지역) · 중국어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C15-3"
+    name: "명보"
+    url: "https://news.mingpao.com/"
+    source_type: "foreign_media"
+    region_language: "홍콩(지역) · 중국어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C16-1"
+    name: "중앙통신사 CNA"
+    url: "https://focustaiwan.tw/"
+    source_type: "foreign_media"
+    region_language: "대만 · 중국어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C16-2"
+    name: "연합보 UDN"
+    url: "https://udn.com/news/index"
+    source_type: "foreign_media"
+    region_language: "대만 · 중국어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C16-3"
+    name: "자유시보"
+    url: "https://www.ltn.com.tw/"
+    source_type: "foreign_media"
+    region_language: "대만 · 중국어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C17-1"
+    name: "NOS"
+    url: "https://nos.nl/"
+    source_type: "foreign_media"
+    region_language: "네덜란드 · 네덜란드어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C17-2"
+    name: "NRC"
+    url: "https://www.nrc.nl/"
+    source_type: "foreign_media"
+    region_language: "네덜란드 · 네덜란드어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C18-1"
+    name: "VRT NWS"
+    url: "https://www.vrt.be/vrtnws/"
+    source_type: "foreign_media"
+    region_language: "벨기에 · 네덜란드어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C18-2"
+    name: "르수아르"
+    url: "https://www.lesoir.be/"
+    source_type: "foreign_media"
+    region_language: "벨기에 · 프랑스어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C19-1"
+    name: "SWI swissinfo.ch"
+    url: "https://www.swissinfo.ch/eng/"
+    source_type: "foreign_media"
+    region_language: "스위스 · 영어·독일어 등"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C19-2"
+    name: "노이에취르허차이퉁"
+    url: "https://www.nzz.ch/"
+    source_type: "foreign_media"
+    region_language: "스위스 · 독일어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C20-1"
+    name: "ORF"
+    url: "https://orf.at/"
+    source_type: "foreign_media"
+    region_language: "오스트리아 · 독일어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C20-2"
+    name: "데어슈탄다르트"
+    url: "https://www.derstandard.at/"
+    source_type: "foreign_media"
+    region_language: "오스트리아 · 독일어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C21-1"
+    name: "SVT Nyheter"
+    url: "https://www.svt.se/nyheter/"
+    source_type: "foreign_media"
+    region_language: "스웨덴 · 스웨덴어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C21-2"
+    name: "다겐스뉘헤테르"
+    url: "https://www.dn.se/"
+    source_type: "foreign_media"
+    region_language: "스웨덴 · 스웨덴어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C22-1"
+    name: "NRK"
+    url: "https://www.nrk.no/"
+    source_type: "foreign_media"
+    region_language: "노르웨이 · 노르웨이어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C22-2"
+    name: "베르덴스강 VG"
+    url: "https://www.vg.no/"
+    source_type: "foreign_media"
+    region_language: "노르웨이 · 노르웨이어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C23-1"
+    name: "DR Nyheder"
+    url: "https://www.dr.dk/nyheder"
+    source_type: "foreign_media"
+    region_language: "덴마크 · 덴마크어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C23-2"
+    name: "폴리티켄"
+    url: "https://politiken.dk/"
+    source_type: "foreign_media"
+    region_language: "덴마크 · 덴마크어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C24-1"
+    name: "Yle"
+    url: "https://yle.fi/news"
+    source_type: "foreign_media"
+    region_language: "핀란드 · 핀란드어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C24-2"
+    name: "헬싱긴사노마트"
+    url: "https://www.hs.fi/"
+    source_type: "foreign_media"
+    region_language: "핀란드 · 핀란드어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C25-1"
+    name: "PAP통신"
+    url: "https://www.pap.pl/en"
+    source_type: "foreign_media"
+    region_language: "폴란드 · 폴란드어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C25-2"
+    name: "가제타비보르차"
+    url: "https://wyborcza.pl/"
+    source_type: "foreign_media"
+    region_language: "폴란드 · 폴란드어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C26-1"
+    name: "우크라인스카프라우다"
+    url: "https://www.pravda.com.ua/eng/"
+    source_type: "foreign_media"
+    region_language: "우크라이나 · 우크라이나어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C26-2"
+    name: "키이우인디펜던트"
+    url: "https://kyivindependent.com/"
+    source_type: "foreign_media"
+    region_language: "우크라이나 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C26-3"
+    name: "우크르인폼 \\[국영\\]"
+    url: "https://www.ukrinform.net/"
+    source_type: "foreign_media"
+    region_language: "우크라이나 · 우크라이나어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C27-1"
+    name: "RTÉ News"
+    url: "https://www.rte.ie/news/"
+    source_type: "foreign_media"
+    region_language: "아일랜드 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C27-2"
+    name: "아이리시타임스"
+    url: "https://www.irishtimes.com/"
+    source_type: "foreign_media"
+    region_language: "아일랜드 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C28-1"
+    name: "푸블리쿠"
+    url: "https://www.publico.pt/"
+    source_type: "foreign_media"
+    region_language: "포르투갈 · 포르투갈어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C28-2"
+    name: "RTP Notícias"
+    url: "https://www.rtp.pt/noticias/"
+    source_type: "foreign_media"
+    region_language: "포르투갈 · 포르투갈어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C29-1"
+    name: "카티메리니"
+    url: "https://www.ekathimerini.com/"
+    source_type: "foreign_media"
+    region_language: "그리스 · 그리스어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C29-2"
+    name: "ERT News"
+    url: "https://www.ertnews.gr/"
+    source_type: "foreign_media"
+    region_language: "그리스 · 그리스어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C30-1"
+    name: "아나돌루통신 \\[국가 통신사\\]"
+    url: "https://www.aa.com.tr/en"
+    source_type: "foreign_media"
+    region_language: "튀르키예 · 튀르키예어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C30-2"
+    name: "휘리예트 데일리뉴스"
+    url: "https://www.hurriyetdailynews.com/"
+    source_type: "foreign_media"
+    region_language: "튀르키예 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C30-3"
+    name: "줌후리예트"
+    url: "https://www.cumhuriyet.com.tr/"
+    source_type: "foreign_media"
+    region_language: "튀르키예 · 튀르키예어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C31-1"
+    name: "RNZ"
+    url: "https://www.rnz.co.nz/"
+    source_type: "foreign_media"
+    region_language: "뉴질랜드 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C31-2"
+    name: "뉴질랜드헤럴드"
+    url: "https://www.nzherald.co.nz/"
+    source_type: "foreign_media"
+    region_language: "뉴질랜드 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C32-1"
+    name: "콤파스"
+    url: "https://www.kompas.com/"
+    source_type: "foreign_media"
+    region_language: "인도네시아 · 인도네시아어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C32-2"
+    name: "안타라통신 \\[국영\\]"
+    url: "https://en.antaranews.com/"
+    source_type: "foreign_media"
+    region_language: "인도네시아 · 인도네시아어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C32-3"
+    name: "자카르타포스트"
+    url: "https://www.thejakartapost.com/"
+    source_type: "foreign_media"
+    region_language: "인도네시아 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C33-1"
+    name: "베르나마통신 \\[국영\\]"
+    url: "https://www.bernama.com/en/"
+    source_type: "foreign_media"
+    region_language: "말레이시아 · 말레이어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C33-2"
+    name: "더스타"
+    url: "https://www.thestar.com.my/"
+    source_type: "foreign_media"
+    region_language: "말레이시아 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C33-3"
+    name: "말레이시아키니"
+    url: "https://www.malaysiakini.com/"
+    source_type: "foreign_media"
+    region_language: "말레이시아 · 영어·말레이어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C34-1"
+    name: "방콕포스트"
+    url: "https://www.bangkokpost.com/"
+    source_type: "foreign_media"
+    region_language: "태국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C34-2"
+    name: "Thai PBS"
+    url: "https://www.thaipbsworld.com/"
+    source_type: "foreign_media"
+    region_language: "태국 · 태국어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C35-1"
+    name: "브이엔익스프레스"
+    url: "https://e.vnexpress.net/"
+    source_type: "foreign_media"
+    region_language: "베트남 · 베트남어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C35-2"
+    name: "베트남뉴스통신 VNA \\[국영\\]"
+    url: "https://en.vietnamplus.vn/"
+    source_type: "foreign_media"
+    region_language: "베트남 · 베트남어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C36-1"
+    name: "필리핀데일리인콰이어러"
+    url: "https://www.inquirer.net/"
+    source_type: "foreign_media"
+    region_language: "필리핀 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C36-2"
+    name: "GMA News"
+    url: "https://www.gmanetwork.com/news/"
+    source_type: "foreign_media"
+    region_language: "필리핀 · 영어·필리핀어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C36-3"
+    name: "래플러"
+    url: "https://www.rappler.com/"
+    source_type: "foreign_media"
+    region_language: "필리핀 · 영어·필리핀어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C37-1"
+    name: "돈 DAWN"
+    url: "https://www.dawn.com/"
+    source_type: "foreign_media"
+    region_language: "파키스탄 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C37-2"
+    name: "Geo News"
+    url: "https://www.geo.tv/"
+    source_type: "foreign_media"
+    region_language: "파키스탄 · 우르두어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C38-1"
+    name: "프로톰알로"
+    url: "https://en.prothomalo.com/"
+    source_type: "foreign_media"
+    region_language: "방글라데시 · 벵골어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C38-2"
+    name: "데일리스타"
+    url: "https://www.thedailystar.net/"
+    source_type: "foreign_media"
+    region_language: "방글라데시 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C39-1"
+    name: "IRNA통신 \\[국영\\]"
+    url: "https://en.irna.ir/"
+    source_type: "foreign_media"
+    region_language: "이란 · 페르시아어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C39-2"
+    name: "ISNA통신"
+    url: "https://www.isna.ir/"
+    source_type: "foreign_media"
+    region_language: "이란 · 페르시아어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C40-1"
+    name: "아랍뉴스"
+    url: "https://www.arabnews.com/"
+    source_type: "foreign_media"
+    region_language: "사우디아라비아 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C40-2"
+    name: "알아라비야 \\[사우디계\\]"
+    url: "https://english.alarabiya.net/"
+    source_type: "foreign_media"
+    region_language: "사우디아라비아 · 아랍어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C40-3"
+    name: "아샤르크알아우사트 \\[사우디계·런던 발행\\]"
+    url: "https://english.aawsat.com/"
+    source_type: "foreign_media"
+    region_language: "사우디아라비아 · 아랍어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C41-1"
+    name: "알자지라"
+    url: "https://www.aljazeera.com/"
+    source_type: "foreign_media"
+    region_language: "카타르 · 영어·아랍어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C41-2"
+    name: "카타르뉴스통신 \\[국영\\]"
+    url: "https://www.qna.org.qa/en"
+    source_type: "foreign_media"
+    region_language: "카타르 · 아랍어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C42-1"
+    name: "더내셔널"
+    url: "https://www.thenationalnews.com/"
+    source_type: "foreign_media"
+    region_language: "아랍에미리트 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C42-2"
+    name: "걸프뉴스"
+    url: "https://gulfnews.com/"
+    source_type: "foreign_media"
+    region_language: "아랍에미리트 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C43-1"
+    name: "알아흐람·Ahram Online \\[국영\\]"
+    url: "https://english.ahram.org.eg/"
+    source_type: "foreign_media"
+    region_language: "이집트 · 아랍어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C43-2"
+    name: "알마스리알욤·Egypt Independent"
+    url: "https://egyptindependent.com/"
+    source_type: "foreign_media"
+    region_language: "이집트 · 아랍어·영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C44-1"
+    name: "G1·Globo"
+    url: "https://g1.globo.com/"
+    source_type: "foreign_media"
+    region_language: "브라질 · 포르투갈어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C44-2"
+    name: "폴랴지상파울루"
+    url: "https://www.folha.uol.com.br/"
+    source_type: "foreign_media"
+    region_language: "브라질 · 포르투갈어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C44-3"
+    name: "이스타두지상파울루"
+    url: "https://www.estadao.com.br/"
+    source_type: "foreign_media"
+    region_language: "브라질 · 포르투갈어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C45-1"
+    name: "엘우니베르살"
+    url: "https://www.eluniversal.com.mx/"
+    source_type: "foreign_media"
+    region_language: "멕시코 · 스페인어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C45-2"
+    name: "레포르마"
+    url: "https://www.reforma.com/"
+    source_type: "foreign_media"
+    region_language: "멕시코 · 스페인어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C45-3"
+    name: "라호르나다"
+    url: "https://www.jornada.com.mx/"
+    source_type: "foreign_media"
+    region_language: "멕시코 · 스페인어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C46-1"
+    name: "클라린"
+    url: "https://www.clarin.com/"
+    source_type: "foreign_media"
+    region_language: "아르헨티나 · 스페인어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C46-2"
+    name: "라나시온"
+    url: "https://www.lanacion.com.ar/"
+    source_type: "foreign_media"
+    region_language: "아르헨티나 · 스페인어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C46-3"
+    name: "인포바에"
+    url: "https://www.infobae.com/"
+    source_type: "foreign_media"
+    region_language: "아르헨티나 · 스페인어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C47-1"
+    name: "엘티엠포"
+    url: "https://www.eltiempo.com/"
+    source_type: "foreign_media"
+    region_language: "콜롬비아 · 스페인어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C47-2"
+    name: "엘에스펙타도르"
+    url: "https://www.elespectador.com/"
+    source_type: "foreign_media"
+    region_language: "콜롬비아 · 스페인어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C48-1"
+    name: "라테르세라"
+    url: "https://www.latercera.com/"
+    source_type: "foreign_media"
+    region_language: "칠레 · 스페인어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C48-2"
+    name: "에몰·엘메르쿠리오"
+    url: "https://www.emol.com/"
+    source_type: "foreign_media"
+    region_language: "칠레 · 스페인어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C49-1"
+    name: "News24"
+    url: "https://www.news24.com/"
+    source_type: "foreign_media"
+    region_language: "남아프리카공화국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C49-2"
+    name: "데일리매버릭"
+    url: "https://www.dailymaverick.co.za/"
+    source_type: "foreign_media"
+    region_language: "남아프리카공화국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C49-3"
+    name: "SABC News \\[공영\\]"
+    url: "https://www.sabcnews.com/"
+    source_type: "foreign_media"
+    region_language: "남아프리카공화국 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C50-1"
+    name: "펀치"
+    url: "https://punchng.com/"
+    source_type: "foreign_media"
+    region_language: "나이지리아 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C50-2"
+    name: "프리미엄타임스"
+    url: "https://www.premiumtimesng.com/"
+    source_type: "foreign_media"
+    region_language: "나이지리아 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C50-3"
+    name: "Channels Television"
+    url: "https://www.channelstv.com/"
+    source_type: "foreign_media"
+    region_language: "나이지리아 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C51-1"
+    name: "데일리네이션·Nation Africa"
+    url: "https://nation.africa/kenya"
+    source_type: "foreign_media"
+    region_language: "케냐 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "C51-2"
+    name: "더스탠더드"
+    url: "https://www.standardmedia.co.ke/"
+    source_type: "foreign_media"
+    region_language: "케냐 · 영어"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S1"
+    name: "대한민국 정책브리핑"
+    url: "https://www.korea.kr/briefing/pressReleaseList.do"
+    source_type: "domestic_press_release"
+    region_language: "정부 통합"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S2"
+    name: "청와대"
+    url: "https://www.president.go.kr/briefings"
+    source_type: "domestic_press_release"
+    region_language: "대통령 브리핑"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S3"
+    name: "대한민국 국회"
+    url: "https://www.assembly.go.kr/portal/bbs/B0000044/list.do?cl1Cd=&edate=&pageIndex=1&pageUnit=10&sdate=&searchDtGbn=c0"
+    source_type: "domestic_press_release"
+    region_language: "입법기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S4"
+    name: "국회예산정책처"
+    url: "https://www.nabo.go.kr/ko/notice/releasesList.do?key=2507040045"
+    source_type: "domestic_press_release"
+    region_language: "입법기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S5"
+    name: "국민의힘"
+    url: "https://www.peoplepowerparty.kr/news/comment/BBSDD0001?gubun2=BBSDD0004"
+    source_type: "domestic_press_release"
+    region_language: "정당 보도자료"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S6"
+    name: "국무조정실·국무총리비서실"
+    url: "https://www.opm.go.kr/opm/news/press-release.do"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S7"
+    name: "재정경제부"
+    url: "https://www.moef.go.kr/nw/nes/nesdta.do?bbsId=MOSFBBS_000000000028&menuNo=4010100"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S8"
+    name: "교육부"
+    url: "https://www.moe.go.kr/boardCnts/listRenew.do?boardID=294&m=020402&s=moe"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S9"
+    name: "과학기술정보통신부"
+    url: "https://www.msit.go.kr/bbs/list.do?mId=307&mPid=208&sCode=user"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S10"
+    name: "법무부"
+    url: "https://www.moj.go.kr/moj/221/subview.do"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S11"
+    name: "행정안전부"
+    url: "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardList.do?bbsId=BBSMSTR_000000000008"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S12"
+    name: "국가보훈부"
+    url: "https://www.mpva.go.kr/mpva/selectBbsNttList.do?bbsNo=16&key=77"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S13"
+    name: "문화체육관광부"
+    url: "https://www.mcst.go.kr/kor/s_notice/press/pressList.jsp"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S14"
+    name: "농림축산식품부"
+    url: "https://www.mafra.go.kr/home/5109/subview.do"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S15"
+    name: "보건복지부"
+    url: "https://www.mohw.go.kr/board.es?bid=0027&mid=a10503010100"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S16"
+    name: "고용노동부"
+    url: "https://www.moel.go.kr/news/enews/report/enewsList.do"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S17"
+    name: "성평등가족부"
+    url: "https://www.mogef.go.kr/nw/rpd/nw_rpd_s001.do?mid=news405"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S18"
+    name: "해양수산부"
+    url: "https://www.mof.go.kr/doc/ko/selectDocList.do?bbsSeq=10&menuSeq=971"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S19"
+    name: "인사혁신처"
+    url: "https://www.mpm.go.kr/mpm/comm/newsPress/newsPressRelease/"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S20"
+    name: "법제처"
+    url: "https://www.moleg.go.kr/board.es?bid=0048&mid=a10501000000"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S21"
+    name: "식품의약품안전처"
+    url: "https://www.mfds.go.kr/brd/m_99/list.do"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S22"
+    name: "국세청"
+    url: "https://www.nts.go.kr/nts/na/ntt/selectNttList.do?bbsId=1028&mi=2201"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S23"
+    name: "관세청"
+    url: "https://www.customs.go.kr/kcs/na/ntt/selectNttList.do?bbsId=1362&mi=2891"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S24"
+    name: "조달청"
+    url: "https://www.pps.go.kr/kor/bbs/list.do?key=00634"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S25"
+    name: "국가데이터처"
+    url: "https://www.kostat.go.kr/board.es?bid=a103010100&mid=a10301010000&ref_bid=203%2C204%2C205%2C206%2C207%2C210%2C211%2C11109%2C11113%2C11814%2C213%2C215%2C214%2C11860%2C11695%2C216%2C218%2C219%2C220%2C10820%2C11815%2C11895%2C11816%2C208%2C245%2C222%2C223%2C225%2C226%2C227%2C228%2C229%2C230%2C11321%2C232%2C233%2C234%2C12029%2C10920%2C11469%2C11470%2C11817%2C236%2C237%2C11471%2C238%2C240%2C241%2C11865%2C243%2C244%2C11893%2C11898%2C12031%2C11825%2C"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S26"
+    name: "소방청"
+    url: "https://www.nfa.go.kr/nfa/news/pressrelease/press/"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S27"
+    name: "농촌진흥청"
+    url: "https://www.rda.go.kr/board/board.do?mode=list&prgId=day_farmprmninfoEntry"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S28"
+    name: "기상청"
+    url: "https://www.kma.go.kr/kma/news/press.jsp"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S29"
+    name: "행정중심복합도시건설청"
+    url: "https://naacc.go.kr/WEB/contents/N3050100000.do"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S30"
+    name: "새만금개발청"
+    url: "https://www.saemangeum.go.kr/sda/brd/list.do?key=2009074409621"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S31"
+    name: "해양경찰청"
+    url: "https://www.kcg.go.kr/kcg/na/ntt/selectNttList.do?bbsId=313&mi=2799"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S32"
+    name: "금융위원회"
+    url: "https://www.fsc.go.kr/no010101"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S33"
+    name: "개인정보보호위원회"
+    url: "https://pipc.go.kr/np/cop/bbs/selectBoardList.do?bbsId=BS074&mCode=C010010000"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S34"
+    name: "국민권익위원회"
+    url: "https://www.acrc.go.kr/board.es?bid=4A&mid=a10402010000"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S35"
+    name: "산업통상부"
+    url: "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S36"
+    name: "통일부"
+    url: "https://unikorea.go.kr/web/unikorea/bbs/bbs_0000000000000004"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S37"
+    name: "기후에너지환경부"
+    url: "https://mcee.go.kr/home/web/board/list.do?boardCategoryId=&boardMasterId=1&menuId=286"
+    source_type: "domestic_press_release"
+    region_language: "중앙행정기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S38"
+    name: "한국은행(통화정책)"
+    url: "https://www.bok.or.kr/portal/bbs/P0000559/list.do?menuNo=200690"
+    source_type: "domestic_press_release"
+    region_language: "중앙은행"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S39"
+    name: "한국은행(기타 보도자료)"
+    url: "https://www.bok.or.kr/portal/bbs/B0000502/list.do?menuNo=201265"
+    source_type: "domestic_press_release"
+    region_language: "중앙은행"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S40"
+    name: "금융감독원 DART"
+    url: "https://dart.fss.or.kr/info/searchBodo.do"
+    source_type: "domestic_press_release"
+    region_language: "금융·공시"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S41"
+    name: "한국거래소 회계정보플랫폼"
+    url: "https://accounting.krx.co.kr/accounting/news/list"
+    source_type: "domestic_press_release"
+    region_language: "금융·회계"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S42"
+    name: "한국전력공사"
+    url: "https://www.kepco.co.kr/home/media/newsroom/newsmedia.do"
+    source_type: "domestic_press_release"
+    region_language: "공기업"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S43"
+    name: "한국수자원공사"
+    url: "https://www.kwater.or.kr/news/repoList.do?brdId=KO26&s_mid=36"
+    source_type: "domestic_press_release"
+    region_language: "공기업"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S44"
+    name: "한국철도공사"
+    url: "https://info.korail.com/info/selectBbsNttList.do?bbsNo=199&key=911"
+    source_type: "domestic_press_release"
+    region_language: "공기업"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S45"
+    name: "국민건강보험공단"
+    url: "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do"
+    source_type: "domestic_press_release"
+    region_language: "공공기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S46"
+    name: "국민연금 기금운용본부"
+    url: "https://fund.nps.or.kr/impa/nscvrgdatalist/getOHEF0013M0.do?menuId=MN24000490"
+    source_type: "domestic_press_release"
+    region_language: "공공기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S47"
+    name: "한국개발연구원(KDI)"
+    url: "https://www.kdi.re.kr/share/pressList"
+    source_type: "domestic_press_release"
+    region_language: "국책연구기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S48"
+    name: "대외경제정책연구원(KIEP)"
+    url: "https://www.kiep.go.kr/board.es?bid=0025&mid=a10503000000"
+    source_type: "domestic_press_release"
+    region_language: "국책연구기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S49"
+    name: "한국해양과학기술원"
+    url: "https://www.kiost.ac.kr/cop/bbs/BBSMSTR_000000000075/selectBoardList.do"
+    source_type: "domestic_press_release"
+    region_language: "정부출연연구기관"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S50"
+    name: "서울특별시청"
+    url: "https://www.seoul.go.kr/news/news_report.do"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S51"
+    name: "서울 강동구"
+    url: "https://www.gangdong.go.kr/web/newportal/press/list"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S52"
+    name: "서울 관악구"
+    url: "https://www.gwanak.go.kr/site/gwanak/ex/bbs/List.do?cbIdx=295"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S53"
+    name: "서울 광진구"
+    url: "https://www.gwangjin.go.kr/portal/bbs/B0000002/list.do?menuNo=200191"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S54"
+    name: "서울 구로구"
+    url: "https://www.guro.go.kr/www/selectBbsNttList.do?bbsNo=665&key=1793"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S55"
+    name: "서울 금천구"
+    url: "https://www.geumcheon.go.kr/portal/selectBbsNttList.do?bbsNo=8&key=297"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S56"
+    name: "서울 노원구"
+    url: "https://www.nowon.kr/www/user/bbs/BD_selectBbsList.do?q_bbsCode=1027"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S57"
+    name: "서울 동대문구"
+    url: "https://www.ddm.go.kr/www/selectBbsNttList.do?bbsNo=39&key=199"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S58"
+    name: "서울 마포구"
+    url: "https://www.mapo.go.kr/site/main/board/press/list"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S59"
+    name: "서울 서대문구"
+    url: "https://www.sdm.go.kr/news/news/masscom.do"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S60"
+    name: "서울 송파구"
+    url: "https://www.songpa.go.kr/www/selectBbsNttList.do?bbsNo=96&key=2781"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S61"
+    name: "서울 용산구"
+    url: "https://www.yongsan.go.kr/portal/bbs/B0000043/list.do?menuNo=200230"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S62"
+    name: "서울 은평구"
+    url: "https://www.ep.go.kr/www/selectBbsNttList.do?bbsNo=48&key=762"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S63"
+    name: "서울 종로구"
+    url: "https://www.jongno.go.kr/portal/bbs/selectBoardList.do?bbsId=BBSMSTR_000000001618&menuId=388338&menuNo=388338"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S64"
+    name: "서울 중구"
+    url: "https://www.junggu.seoul.kr/content.do?cmsid=14390"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S65"
+    name: "부산 금정구"
+    url: "https://www.geumjeong.go.kr/board/list.geumj?boardId=BBS_0000005&contentsSid=3856&cpath=&menuCd=DOM_000000124002002000"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S66"
+    name: "부산 동구"
+    url: "https://www.bsdonggu.go.kr/board/list.donggu?boardId=BBS_0000025&contentsSid=278&menuCd=DOM_000000103001006000"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S67"
+    name: "부산 동래구"
+    url: "https://www.dongnae.go.kr/index.dongnae?menuCd=DOM_000000103001005000"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S68"
+    name: "부산 사하구"
+    url: "https://www.saha.go.kr/portal/bbs/list.do?mId=0301060000&ptIdx=24"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S69"
+    name: "부산 연제구"
+    url: "https://www.yeonje.go.kr/portal/bbs/list.do?mId=0206050000&ptIdx=12"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S70"
+    name: "부산 영도구"
+    url: "https://www.yeongdo.go.kr/00000/00007/00011.web"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S71"
+    name: "대구광역시"
+    url: "https://info.daegu.go.kr/newshome/mtnmain.php?mkey=26&mtnkey=scatelist"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S72"
+    name: "대구 군위군"
+    url: "https://www.gunwi.go.kr/ko/page.do?mnu_uid=106"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S73"
+    name: "대구 남구"
+    url: "https://nam.daegu.kr/index.do?menu_id=00000854"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S74"
+    name: "대구 달서구"
+    url: "https://www.dalseo.daegu.kr/index.do?menu_id=10000106"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S75"
+    name: "대구 달성군"
+    url: "https://dalseong.daegu.kr/index.do?menu_id=00000195"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S76"
+    name: "대구 북구"
+    url: "https://www.buk.daegu.kr/index.do?menu_id=00000201"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S77"
+    name: "대구 수성구"
+    url: "https://www.suseong.kr/index.do?menu_id=00000070"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S78"
+    name: "인천광역시청"
+    url: "https://www.incheon.go.kr/IC010205/list"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S79"
+    name: "인천 강화군"
+    url: "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/report.jsp"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S80"
+    name: "인천 미추홀구"
+    url: "https://www.michuhol.go.kr/main/board/list.do?board_code=news_item"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S81"
+    name: "인천 부평구"
+    url: "https://www.icbp.go.kr/main/participation/news/report.jsp"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S82"
+    name: "인천 서해구"
+    url: "https://www.seo.incheon.kr/open_content/main/community/news/report.jsp"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S83"
+    name: "인천 연수구"
+    url: "https://www.yeonsu.go.kr/main/community/notify/report.asp"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S84"
+    name: "전남광주통합특별시(구 광주)"
+    url: "https://www.gwangju.go.kr/boardList.do?boardId=BD_0000000027&pageId=www789"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S85"
+    name: "광주 광산구"
+    url: "https://www.gwangsan.go.kr/boardList.do?boardId=REPORT_NEW&pageId=www16"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S86"
+    name: "광주 동구"
+    url: "https://www.donggu.kr/board.es?bid=0243&mid=a10102040100"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S87"
+    name: "경기도청"
+    url: "https://gnews.gg.go.kr/briefing/brief_gongbo.do"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S88"
+    name: "경기 가평군"
+    url: "https://www.gp.go.kr/portal/selectBbsNttList.do?bbsNo=127&key=787"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S89"
+    name: "경기 과천시"
+    url: "https://www.gccity.go.kr/portal/newsList/list.do?mId=0301140000"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S90"
+    name: "경기 광주시"
+    url: "https://www.gjcity.go.kr/portal/bbs/list.do?mId=0203010000&ptIdx=22&token=1718256805122"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S91"
+    name: "경기 구리시"
+    url: "https://www.guri.go.kr/www/selectBbsNttList.do?bbsNo=42&key=393"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S92"
+    name: "경기 김포시"
+    url: "https://www.gimpo.go.kr/news/selectBbsNttList.do?bbsNo=466&key=9377"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S93"
+    name: "경기 남양주시"
+    url: "https://www.nyj.go.kr/www/selectBbsNttList.do?bbsNo=68&key=2498&searchCtgry=%EB%8C%80%ED%91%9C%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S94"
+    name: "경기 부천시"
+    url: "https://www.bucheon.go.kr/site/program/board/basicboard/list?boardtypeid=26748&menuid=148002002001"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S95"
+    name: "경기 시흥시"
+    url: "https://www.siheung.go.kr/media/bbs/list.do?mId=0100000000&ptIdx=82"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S96"
+    name: "경기 안성시"
+    url: "https://www.anseong.go.kr/portal/portal/saeol/newsList.do?mId=0502010100"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S97"
+    name: "경기 안양시"
+    url: "https://www.anyang.go.kr/main/emwsWebList.do?key=4107&searchGosiSe=new"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S98"
+    name: "경기 연천군"
+    url: "https://www.yeoncheon.go.kr/www/selectBbsNttList.do?bbsNo=29&key=3398"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S99"
+    name: "경기 오산시"
+    url: "https://www.osan.go.kr/portal/bbs/list.do?mId=0301080000&ptIdx=588"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S100"
+    name: "경기 의왕시"
+    url: "https://www.uiwang.go.kr/UWKORINFO0201"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S101"
+    name: "경기 하남시"
+    url: "https://www.hanam.go.kr/www/selectBbsNttList.do?bbsNo=1164&key=10221"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S102"
+    name: "경기 화성시"
+    url: "https://www.hscity.go.kr/www/user/bbs/BD_selectBbsList.do?q_bbsCode=1051"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S103"
+    name: "강원특별자치도청"
+    url: "https://state.gwd.go.kr/portal/briefing/pressRelease"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S104"
+    name: "강원 고성군"
+    url: "https://www.gwgs.go.kr/prog/bbsArticle/BBSMSTR_000000003771/list.do"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S105"
+    name: "강원 동해시"
+    url: "https://dh.go.kr/www/selectBbsNttList.do?bbsNo=95&key=489"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S106"
+    name: "강원 양양군"
+    url: "https://www.yangyang.go.kr/gw/portal/yyc_news_report"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S107"
+    name: "강원 원주시"
+    url: "https://www.wonju.go.kr/media/selectBbsNttList.do?bbsNo=145&key=3450"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S108"
+    name: "강원 정선군"
+    url: "https://www.jeongseon.go.kr/portal/openadmin/adminnews/pressrelease"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S109"
+    name: "강원 춘천시"
+    url: "https://www.chuncheon.go.kr/mayor/newsroom/press-release/"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S110"
+    name: "강원 태백시"
+    url: "https://www.taebaek.go.kr/www/selectBbsNttList.do?bbsNo=31&key=359"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S111"
+    name: "강원 평창군"
+    url: "https://www.pc.go.kr/portal/government/government-press/government-press-press"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S112"
+    name: "강원 횡성군"
+    url: "https://www.hsg.go.kr/www/selectBbsNttList.do?bbsNo=67&key=827"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S113"
+    name: "충북 괴산군"
+    url: "https://www.goesan.go.kr/www/selectBbsNttList.do?bbsNo=213&key=136"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S114"
+    name: "충남 계룡시"
+    url: "https://gyeryong.go.kr/kr/html/sub03/030105.html"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S115"
+    name: "충남 금산군"
+    url: "https://www.geumsan.go.kr/kr/html/sub03/030301.html"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S116"
+    name: "충남 논산시"
+    url: "https://nonsan.go.kr/kor/html/sub03/030106.html"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S117"
+    name: "충남 서산시"
+    url: "https://www.seosan.go.kr/www/selectBbsNttList.do?bbsNo=101&key=1260"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S118"
+    name: "충남 청양군"
+    url: "https://www.cheongyang.go.kr/cop/bbs/BBSMSTR_000000000064/selectBoardList.do"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S119"
+    name: "충남 태안군"
+    url: "https://www.taean.go.kr/cop/bbs/BBSMSTR_000000000040/selectBoardList.do"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S120"
+    name: "대전광역시"
+    url: "https://www.daejeon.go.kr/drh/board/boardNormalList.do?boardId=normal_0189&menuSeq=6825"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S121"
+    name: "울산광역시"
+    url: "https://www.ulsan.go.kr/u/rep/bbs/list.ulsan?bbsId=BBS_0000000000000027&mId=001004003001000000"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S122"
+    name: "전북특별자치도"
+    url: "https://www.jeonbuk.go.kr/newsroom/board/list.jeonbuk?boardId=BBS_0000090&contentsSid=976&cpath=%2Fnewsroom&menuCd=DOM_000001101000000000"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S123"
+    name: "고창군"
+    url: "https://www.gochang.go.kr/board/list.gochang?boardId=BBS_0000179&contentsSid=241&cpath=&menuCd=DOM_000000102002001000"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S124"
+    name: "김제시"
+    url: "https://www.gimje.go.kr/board/list.gimje?boardId=BBS_0000046&contentsSid=198&cpath=&menuCd=DOM_000000104005000000"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S125"
+    name: "무주군"
+    url: "https://www.muju.go.kr/planweb/board/list.9is?boardUid=ff8080816d3d662f016d4218d1360434&contentUid=ff8080816c5f9d47016cbd3baf240074&contentUid=ff8080816c5f9d47016cbd3baf240074&subPath="
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S126"
+    name: "부안군"
+    url: "https://www.buan.go.kr/board/list.buan?boardId=BBS_0000059&contentsSid=90&cpath=&menuCd=DOM_000000103002001000"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S127"
+    name: "순창군"
+    url: "https://www.sunchang.go.kr/board/post/list.do?boardUid=ff8080819a2f0e3b019a71a46284217a&menuUid=ff8080819a2f0e3b019a5d1bb7da1652"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S128"
+    name: "장수군"
+    url: "https://www.jangsu.go.kr/board/list.jangsu?boardId=BBS_0000041&contentsSid=24&cpath=&menuCd=DOM_000000102001012000"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S129"
+    name: "전주시"
+    url: "https://www.jeonju.go.kr/planweb/board/list.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&contentUid=ff8080818990c349018b041a87fe3960&subPath="
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S130"
+    name: "진안군"
+    url: "https://www.jinan.go.kr/board/list.jinan?boardId=BBS_0000034&contentsSid=187&cpath=&menuCd=DOM_000000107002002000"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S131"
+    name: "진도군"
+    url: "https://www.jindo.go.kr/home/board/B0016.cs?m=626"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S132"
+    name: "함평군"
+    url: "https://www.hampyeong.go.kr/boardList.do?boardId=NEWS&pageId=www275"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S133"
+    name: "화순군"
+    url: "https://www.hwasun.go.kr/gallery.do?M=020101000000&S=S01&b_code=0000000001"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S134"
+    name: "경상북도"
+    url: "https://www.gb.go.kr/Main/page.do?LARGE_CODE=720&MEDIUM_CODE=50&SMALL_CODE=10&SMALL_CODE2=60&mnu_uid=6792"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S135"
+    name: "경주시"
+    url: "https://www.gyeongju.go.kr/news/page.do?mnu_uid=1328"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S136"
+    name: "구미시"
+    url: "https://www.gumi.go.kr/portal/board/post/list.do?bcIdx=211&mid=0504020000&token=1718603516957"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S137"
+    name: "성주군"
+    url: "https://www.sj.go.kr/page.do?mnu_uid=3546"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S138"
+    name: "예천군"
+    url: "https://www.ycg.kr/open.content/ko/administrative/news/headline/"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S139"
+    name: "의성군"
+    url: "https://www.usc.go.kr/ko/page.do?mnu_uid=190"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S140"
+    name: "양산시"
+    url: "https://www.yangsan.go.kr/portal/saeol/news/list.do?mid=0105010000&token=1718608043951"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S141"
+    name: "통영시"
+    url: "https://www.tongyeong.go.kr/00852/00853/00859.web"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S142"
+    name: "제주특별자치도"
+    url: "https://www.jeju.go.kr/news/bodo/list.htm"
+    source_type: "domestic_press_release"
+    region_language: "지자체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S143"
+    name: "삼성전자"
+    url: "https://news.samsung.com/kr/category/프레스센터/보도자료"
+    source_type: "domestic_press_release"
+    region_language: "기업·전자"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S144"
+    name: "삼성전자 반도체"
+    url: "https://news.samsungsemiconductor.com/kr/category/뉴스/"
+    source_type: "domestic_press_release"
+    region_language: "기업·반도체"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S145"
+    name: "LG그룹"
+    url: "https://www.lg.co.kr/media/release"
+    source_type: "domestic_press_release"
+    region_language: "기업·그룹"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S146"
+    name: "롯데그룹"
+    url: "https://www.lotte.co.kr/pr/newsList.do"
+    source_type: "domestic_press_release"
+    region_language: "기업·그룹"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S147"
+    name: "CJ그룹"
+    url: "https://cjnews.cj.net/category/press-center/"
+    source_type: "domestic_press_release"
+    region_language: "기업·그룹"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S148"
+    name: "CJ프레시웨이"
+    url: "https://www.cjfreshway.com/newsroom/pr/list.do?pageNum=1"
+    source_type: "domestic_press_release"
+    region_language: "기업·식자재"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S149"
+    name: "한화"
+    url: "https://www.hanwhacorp.co.kr/hanwha/media/coverage.do"
+    source_type: "domestic_press_release"
+    region_language: "기업·그룹"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S150"
+    name: "GS칼텍스"
+    url: "https://www.gscaltex.com/kr/company/prcenter/pressrelease/1"
+    source_type: "domestic_press_release"
+    region_language: "기업·에너지"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S151"
+    name: "SK텔레콤"
+    url: "https://news.sktelecom.com/category/보도자료"
+    source_type: "domestic_press_release"
+    region_language: "기업·통신"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S152"
+    name: "네이버"
+    url: "https://www.navercorp.com/media/pressReleases"
+    source_type: "domestic_press_release"
+    region_language: "기업·플랫폼"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S153"
+    name: "카카오"
+    url: "https://www.kakaocorp.com/page/presskit/press-release"
+    source_type: "domestic_press_release"
+    region_language: "기업·플랫폼"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S154"
+    name: "KB금융그룹"
+    url: "https://www.kbfg.com/kor/pr/press/list.htm"
+    source_type: "domestic_press_release"
+    region_language: "기업·금융"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S155"
+    name: "셀트리온"
+    url: "https://www.celltrion.com/ko-kr/company/media-center/press-release"
+    source_type: "domestic_press_release"
+    region_language: "기업·바이오"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S156"
+    name: "쿠팡"
+    url: "https://news.coupang.com/archives/category/press"
+    source_type: "domestic_press_release"
+    region_language: "기업·유통"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
+  - id: "S157"
+    name: "신세계그룹"
+    url: "https://www.shinsegaegroupnewsroom.com/category/press/"
+    source_type: "domestic_press_release"
+    region_language: "기업·유통"
+    collection_method: null
+    priority: null
+    poll_interval_seconds: null
+    active: false
+    approved: true
+    usage_terms_confirmed: false
