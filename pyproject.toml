@@ -7,7 +7,7 @@ name = "van-ai-article-publishing-system"
 version = "0.1.0"
 description = "Source registry and validation for VAN's AI article publishing system"
 requires-python = ">=3.11"
-dependencies = ["PyYAML>=6.0,<7.0"]
+dependencies = ["PyYAML>=6.0,<7.0", "defusedxml>=0.7.1,<0.8"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

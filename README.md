@@ -44,3 +44,24 @@ for issue in registry.issues:
 for source in registry.eligible_sources:
     print(source.source_id, source.collection_method)
 ```
+
+## RSS 피드 수집기
+`van_article_publishing_system.feeds`는 `eligible_for_collection`인 `rss` 출처의 `feed_url`을 요청해 항목을 가져옵니다. 항목은 피드 원문 그대로 반환하며, 정제·공통 형식 변환·저장·주기 실행은 후속 이슈 범위입니다.
+
+```python
+from van_article_publishing_system.sources import load_source_registry
+from van_article_publishing_system.feeds import collect_rss_feeds
+
+registry = load_source_registry("config/sources.yaml")
+for result in collect_rss_feeds(registry.sources):
+    if result.ok:
+        print(result.source_id, len(result.items))
+    else:
+        print(result.source_id, result.failure.kind.value, result.failure.message)
+```
+
+- 비활성·미승인·이용조건 미확인 출처는 요청하지 않으며 결과에도 나타나지 않습니다.
+- `rss`가 아닌 활성 출처는 `unsupported_method`로 기록하고 크롤링하지 않습니다.
+- 실패 유형: `network`(연결·시간 초과·HTTP 오류), `invalid_format`(RSS 2.0 아님·크기 초과), `invalid_url`(피드 주소 없음·공개 주소 아님), `unsupported_method`, `internal`.
+- 한 출처가 실패해도 나머지 출처는 계속 수집합니다.
+- 지원 형식은 RSS 2.0입니다. Atom 등 다른 피드 형식은 `invalid_format`으로 처리됩니다.

@@ -22,6 +22,7 @@ _SOURCE_FIELDS = frozenset(
         "id",
         "name",
         "url",
+        "feed_url",
         "source_type",
         "region_language",
         "collection_method",
@@ -32,6 +33,25 @@ _SOURCE_FIELDS = frozenset(
         "usage_terms_confirmed",
     }
 )
+
+
+def _is_valid_http_url(value: str) -> bool:
+    """Return True for an absolute HTTP(S) URL without credentials or control characters."""
+
+    if any(ord(char) <= 0x20 or ord(char) == 0x7F for char in value):
+        return False
+    try:
+        parsed_url = urlsplit(value)
+        port = parsed_url.port
+        return (
+            parsed_url.scheme in {"http", "https"}
+            and bool(parsed_url.hostname)
+            and parsed_url.username is None
+            and parsed_url.password is None
+            and (port is None or 0 <= port <= 65535)
+        )
+    except ValueError:
+        return False
 
 
 @dataclass(frozen=True, slots=True)
@@ -49,6 +69,7 @@ class Source:
     active: bool
     approved: bool
     usage_terms_confirmed: bool
+    feed_url: str | None = None
 
     @property
     def eligible_for_collection(self) -> bool:
@@ -169,20 +190,15 @@ def load_source_registry(path: str | Path) -> SourceRegistry:
 
         url_value = raw_source.get("url")
         if isinstance(url_value, str) and url_value.strip():
-            try:
-                parsed_url = urlsplit(url_value.strip())
-                port = parsed_url.port
-                valid_url = (
-                    parsed_url.scheme in {"http", "https"}
-                    and bool(parsed_url.hostname)
-                    and parsed_url.username is None
-                    and parsed_url.password is None
-                    and (port is None or 0 <= port <= 65535)
-                )
-            except ValueError:
-                valid_url = False
-            if not valid_url:
+            if not _is_valid_http_url(url_value.strip()):
                 entry_issues.append("'url' must be an absolute HTTP(S) URL without embedded credentials.")
+
+        feed_url = raw_source.get("feed_url")
+        if feed_url is not None:
+            if not isinstance(feed_url, str) or not feed_url.strip():
+                entry_issues.append("'feed_url' must be a non-empty string when provided.")
+            elif not _is_valid_http_url(feed_url.strip()):
+                entry_issues.append("'feed_url' must be an absolute HTTP(S) URL without embedded credentials.")
 
         collection_method = raw_source.get("collection_method")
         if collection_method is not None:
@@ -219,6 +235,8 @@ def load_source_registry(path: str | Path) -> SourceRegistry:
                 entry_issues.append("An active source must have a priority.")
             if poll_interval_seconds is None:
                 entry_issues.append("An active source must have a poll_interval_seconds value.")
+            if collection_method == "rss" and feed_url is None:
+                entry_issues.append("An active rss source must have a feed_url.")
 
         if entry_issues:
             issues.extend(SourceIssue(issue_id, message) for message in entry_issues)
@@ -237,6 +255,7 @@ def load_source_registry(path: str | Path) -> SourceRegistry:
                 active=active,
                 approved=approved,
                 usage_terms_confirmed=usage_terms_confirmed,
+                feed_url=(feed_url.strip() if feed_url else None),
             )
         )
 

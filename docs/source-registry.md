@@ -8,7 +8,8 @@
 | --- | --- | --- |
 | `id` | 문자열 | 출처별 고유 식별자. 영문자, 숫자, 밑줄, 하이픈 사용 |
 | `name` | 문자열 | 사람이 알아볼 출처명 |
-| `url` | 문자열 | 사용자 정보가 포함되지 않은 절대 HTTP 또는 HTTPS URL |
+| `url` | 문자열 | 사용자 정보가 포함되지 않은 절대 HTTP 또는 HTTPS URL. 출처 사이트(승인받은 페이지) 주소이며 피드 주소가 아님 |
+| `feed_url` | 문자열 또는 `null` | RSS 피드의 절대 HTTP(S) URL(사용자 정보·공백·제어문자 불가). 수집 방식이 `rss`인 출처를 활성화하려면 필수 |
 | `source_type` | 문자열 | 출처 유형. 초기 목록은 `foreign_media` 또는 `domestic_press_release` |
 | `region_language` | 문자열 | 기획 목록의 국가·언어 또는 기관 유형 |
 | `collection_method` | 문자열 또는 `null` | 설정된 경우 `rss` 또는 `api` |
@@ -19,6 +20,8 @@
 | `usage_terms_confirmed` | 불리언 | 수집·이용 조건 확인 후 허용 여부 표시 |
 
 기획안의 출처 목록을 `config/sources.yaml`로 가져왔습니다. 수집 방식·출처별 우선순위·주기는 목록에 기재되지 않아 `null`이며, 항목은 모두 비활성 상태로 시작합니다. 운영자는 이 설정 데이터에 항목을 추가하거나 수정할 수 있어 출처 추가에 코드 변경이 필요하지 않습니다.
+
+활성(`active: true`) 상태의 `rss` 출처에 `feed_url`이 없으면 항목 오류로 처리됩니다. 비활성 출처는 `feed_url` 없이 등록할 수 있습니다.
 
 `active`, `approved`, `usage_terms_confirmed`가 모두 `true`이고, 수집 방식·우선순위·주기가 유효하게 설정된 항목만 `eligible_sources`에 포함됩니다. 목록에 포함된 것만으로 이용 약관이나 재사용 권한을 확인했다고 간주하지 않습니다.
 

@@ -23,7 +23,8 @@ class SourceRegistryTests(unittest.TestCase):
     def valid_source(self, **overrides: object) -> dict:
         source = {
             "id": "source-1", "name": "Example News",
-            "url": "https://example.com/news", "source_type": "foreign_media",
+            "url": "https://example.com/news", "feed_url": "https://example.com/feed.xml",
+            "source_type": "foreign_media",
             "region_language": "English", "collection_method": "rss",
             "priority": 1, "poll_interval_seconds": 300, "active": True,
             "approved": True, "usage_terms_confirmed": True,
