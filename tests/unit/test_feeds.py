@@ -11,17 +11,17 @@ from unittest import mock
 
 import yaml
 
-from van_article_publishing_system import feeds
-from van_article_publishing_system.feeds import (
+from van_article_publishing_system.collection import feeds
+from van_article_publishing_system.collection.feeds import (
     FeedCollectionError,
     FeedErrorKind,
     collect_rss_feeds,
     fetch_url,
     parse_rss,
 )
-from van_article_publishing_system.sources import Source, load_source_registry
+from van_article_publishing_system.sources.registry import Source, load_source_registry
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 RSS_OK = b"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"

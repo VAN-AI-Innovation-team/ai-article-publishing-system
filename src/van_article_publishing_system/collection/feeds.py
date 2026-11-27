@@ -35,7 +35,7 @@ import time
 from defusedxml import DefusedXmlException
 from defusedxml import ElementTree as SafeElementTree
 
-from .sources import Source
+from ..sources.registry import Source
 
 logger = logging.getLogger(__name__)
 

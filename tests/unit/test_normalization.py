@@ -5,8 +5,8 @@ from __future__ import annotations
 
 import unittest
 
-from van_article_publishing_system.feeds import FeedItem
-from van_article_publishing_system.normalization import (
+from van_article_publishing_system.collection.feeds import FeedItem
+from van_article_publishing_system.processing.normalization import (
     clean_text,
     normalize_feed_item,
     normalize_feed_items,

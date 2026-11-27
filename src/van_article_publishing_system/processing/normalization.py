@@ -9,7 +9,7 @@ import re
 from typing import Iterable
 from urllib.parse import urlsplit
 
-from .feeds import FeedItem
+from ..collection.feeds import FeedItem
 
 
 _BLOCK_TAGS = {

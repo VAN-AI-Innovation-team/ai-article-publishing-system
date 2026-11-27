@@ -8,9 +8,9 @@ from pathlib import Path
 
 import yaml
 
-from van_article_publishing_system.sources import load_source_registry
+from van_article_publishing_system.sources.registry import load_source_registry
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 
 class SourceRegistryTests(unittest.TestCase):
