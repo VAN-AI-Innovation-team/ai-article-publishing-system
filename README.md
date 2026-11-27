@@ -35,7 +35,7 @@ python -m pip install -e .
 Python 코드에서 다음처럼 읽을 수 있습니다.
 
 ```python
-from van_article_publishing_system.sources import load_source_registry
+from van_article_publishing_system.sources.registry import load_source_registry
 
 registry = load_source_registry("config/sources.yaml")
 for issue in registry.issues:
@@ -44,13 +44,49 @@ for issue in registry.issues:
 for source in registry.eligible_sources:
     print(source.source_id, source.collection_method)
 ```
+## 프로젝트 패키지 구조 및 관리 규칙
+
+본 프로젝트는 기능별 책임에 따라 패키지를 분리하는 구조를 사용합니다.
+
+이슈 단위로 별도의 패키지나 폴더를 생성하지 않으며, 모든 구현 코드는 메인 패키지 내에서 해당 기능의 책임에 맞는 디렉터리에 배치합니다.
+
+### 메인 패키지 구조
+
+```text
+src/van_article_publishing_system/
+├── sources/
+├── collection/
+├── processing/
+├── editorial/
+├── publishing/
+└── operations/
+```
+
+| 패키지 | 담당 기능 |
+|---|---|
+| `sources` | 데이터 출처 및 수집 대상 관리 |
+| `collection` | RSS 등 외부 데이터 수집 |
+| `processing` | 수집 데이터 정규화 및 후처리 |
+| `editorial` | 기사 검토, 편집 및 승인 관리 |
+| `publishing` | 승인된 기사의 외부 플랫폼 발행 |
+| `operations` | 실행 이력, 오류 및 운영 관리 |
+
+### 패키지 관리 원칙
+
+1. 이슈 번호 또는 이슈명을 기준으로 별도의 패키지 폴더를 생성하지 않습니다.
+2. 신규 구현 코드는 기존 메인 패키지의 기능별 디렉터리에 배치합니다.
+3. 각 모듈은 해당 디렉터리의 책임 범위에 맞게 작성합니다.
+4. 모듈 이동 및 구조 변경 시 관련 import 경로와 테스트 코드도 함께 수정합니다.
+5. 기존 기능과 테스트가 정상적으로 유지되는지 확인한 후 변경 사항을 반영합니다.
+
+이를 통해 기능별 책임을 명확히 분리하고, 코드 통합 및 유지보수의 효율성을 높입니다.
 
 ## RSS 피드 수집기
 `van_article_publishing_system.feeds`는 `eligible_for_collection`인 `rss` 출처의 `feed_url`을 요청해 항목을 가져옵니다. 항목은 피드 원문 그대로 반환하며, 정제·공통 형식 변환·저장·주기 실행은 후속 이슈 범위입니다.
 
 ```python
-from van_article_publishing_system.sources import load_source_registry
-from van_article_publishing_system.feeds import collect_rss_feeds
+from van_article_publishing_system.sources.registry import load_source_registry
+from van_article_publishing_system.collection.feeds import collect_rss_feeds
 
 registry = load_source_registry("config/sources.yaml")
 for result in collect_rss_feeds(registry.sources):
